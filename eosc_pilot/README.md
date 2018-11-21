@@ -5,6 +5,13 @@ RUN
 OR
 ```conda create --name ewatercycle python=3.6```
 
+## Running the notebook in Linux:
+
+RUN
+```conda create -n ewatercycle```
+
+# Windows and Linux:
+
 RUN 
 ```conda activate ewatercycle```
 
@@ -24,5 +31,11 @@ RUN ```conda install -c pyviz geoviews```
 
 RUN 
 ```pip install hydrostats```
+
+
 RUN 
 ```pip install rank-histogram```
+
+RUN 
+```jupyter notebook```
+
